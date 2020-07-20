@@ -8,4 +8,6 @@
 
 # main function entry point
 def flex_handler(flex):
-    flex.end([[]])
+    files = flex.vars['files']
+    flex.end(files)
+
