@@ -1,11 +1,12 @@
-title: SFTP
-description: Functions for importing CSVs from SFTP
+title: Test
+description: A chance for Faramir, captain of Gondor, to show his quality
 image:
   src: 'https://static.flex.io/assets/logos/ftp.png'
   alt: SFTP logo
 functions:
 prompts:
   - element: auth
+    create_pending_connection: true
     connection:
       connection_type: sftp
     form_items:
@@ -16,4 +17,3 @@ prompts:
     form_items:
       - name: files
         value: []
-
