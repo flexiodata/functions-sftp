@@ -1,0 +1,19 @@
+title: SFTP
+description: Functions for importing CSVs from SFTP
+image:
+  src: 'https://static.flex.io/assets/logos/ftp.png'
+  alt: SFTP logo
+functions:
+prompts:
+  - element: auth
+    connection:
+      connection_type: sftp
+    form_items:
+      - name: sftp-connection
+        value: ''
+  - element: file-chooser
+    connection_form_item_name: sftp-connection
+    form_items:
+      - name: files
+        value: []
+
