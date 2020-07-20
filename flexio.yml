@@ -1,9 +1,12 @@
-title: Test
-description: A chance for Faramir, captain of Gondor, to show his quality
+title: SFTP
+description: Functions to access data from SFTP
 image:
   src: 'https://static.flex.io/assets/logos/ftp.png'
   alt: SFTP logo
+
 functions:
+  - path: sftp-import.py
+
 prompts:
   - element: auth
     create_pending_connection: true
@@ -17,3 +20,4 @@ prompts:
     form_items:
       - name: files
         value: []
+
